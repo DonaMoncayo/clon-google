@@ -1,0 +1,68 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul.inicio{
+    list-style-type: none;
+    text-align: right;
+    font-size: 15px; 
+}
+
+ul.inicio ol{
+    padding: 0px;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+div.piePagina2{
+    list-style-type: none;
+    text-align: right; 
+    margin-bottom: 5px;
+}
+
+div.piePag {
+    padding: 0px 0px 0px 10px;
+    display: inline-block;   
+    background-color: aquamarine;
+}
+
+
+ul.piePagina{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+}
+
+#logoGoogle{
+    padding: 100px 550px 30px 550px;
+}
+
+#lupa{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0px 0px 0px 100px;
+}
+
+#microfono{
+    width: 30px;
+    height: 30px; 
+    margin: 0px 5px;
+}
+
+#camara{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.barraBuscador{
+    list-style-type: none;
+    padding: 0px 300px;
+    padding-bottom: 300px;
+}
+
+p{
+    background-color: #f2f2f2;
+   
+}
