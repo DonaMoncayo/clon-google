@@ -3,6 +3,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    height: 10vh;
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    height: auto;
+}
+
 ul.inicio{
     list-style-type: none;
     text-align: right;
@@ -15,23 +29,6 @@ ul.inicio ol{
     display: inline-block;
 }
 
-div.piePagina2{
-    list-style-type: none;
-    text-align: right; 
-    margin-bottom: 5px;
-}
-
-div.piePag {
-    padding: 0px 0px 0px 10px;
-    display: inline-block;   
-    background-color: aquamarine;
-}
-
-
-ul.piePagina{
-    background-color: #f2f2f2;
-    padding-top: 20px;
-}
 
 #logoGoogle{
     padding: 100px 550px 30px 550px;
@@ -62,7 +59,11 @@ ul.piePagina{
     padding-bottom: 300px;
 }
 
-p{
-    background-color: #f2f2f2;
-   
+footer ul{
+    display: inline;
+    margin: 15px 12px;
+}
+footer ul ol{
+    padding: 15px;
+    display: inline-block;
 }
