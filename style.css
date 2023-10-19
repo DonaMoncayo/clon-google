@@ -5,39 +5,17 @@
 
 header{
     height: 10vh;
-    font-size: 13px;
 }
 
 main{
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 footer{
     height: auto;
-    font-size: 14px;
 }
-
-.fotoPerfil{
-    border-radius: 50px;
-}
-
-.barraBuscador{
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#buscador{
-    outline: none;
-    border: none;
-}
-
 
 ul.inicio{
     list-style-type: none;
@@ -51,28 +29,41 @@ ul.inicio ol{
     display: inline-block;
 }
 
+
+#logoGoogle{
+    padding: 100px 550px 30px 550px;
+}
+
 #lupa{
     width: 30px;
     height: 30px;
+    display: inline-block;
+    margin: 0px 0px 0px 100px;
 }
 
 #microfono{
-    width: 35px;
-    height: 35px; 
-    outline: none;
-    background-color: transparent;
-    border: none;
+    width: 30px;
+    height: 30px; 
+    margin: 0px 5px;
 }
 
 #camara{
-    width: 35px;
-    height: 35px;
-    outline: none;
-    background-color: transparent;
-    border: none;
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
 }
 
-.piePagina{
-    display: flex;
-    
+.barraBuscador{
+    list-style-type: none;
+    padding: 0px 300px;
+    padding-bottom: 300px;
+}
+
+footer ul{
+    display: inline;
+    margin: 15px 12px;
+}
+footer ul ol{
+    padding: 15px;
+    display: inline-block;
 }
